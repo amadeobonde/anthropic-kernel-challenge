@@ -1,5 +1,7 @@
 # Anthropic Kernel Optimization Challenge — 1,358 Cycles
 
+> **Why this matters for backend engineering:** This deep dive into low-level CPU instruction scheduling directly translates to building highly optimized, resource-efficient backend systems. The same principles of minimizing latency, maximizing throughput, and eliminating execution stalls are critical for scaling infrastructure on massive platforms like Salesforce.
+
 Optimized a custom VLIW SIMD instruction scheduler to **1,358 cycles**, beating Claude Opus 4.5's best score of **1,363 cycles** on Anthropic's performance engineering take-home.
 
 ## The Challenge
